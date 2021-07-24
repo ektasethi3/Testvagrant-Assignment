@@ -3,8 +3,10 @@ package com.basetest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import io.restassured.RestAssured;
-import utils.Environment;
-import utils.ExtentReport;
+
+
+import weather.utils.Environment;
+import weather.utils.ExtentReport;
 
 @Listeners(ExtentReport.class)
 public class BaseTest extends ExtentReport{

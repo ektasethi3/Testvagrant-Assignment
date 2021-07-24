@@ -1,4 +1,4 @@
-package utils;
+package weather.utils;
 
 import java.io.File;
 

@@ -11,9 +11,10 @@ import apiConfigs.APIPath;
 import apiVerifications.APIVerification;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import utils.Environment;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import weather.utils.Environment;
 
 import java.io.IOException;
 import java.util.*;
@@ -40,4 +41,6 @@ public class GetResponses extends BaseTest{
 		
 		test.log(LogStatus.INFO, "getRequest ended");	
 	}
+
+
 }

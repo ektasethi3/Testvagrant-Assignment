@@ -9,12 +9,13 @@ import org.testng.Assert;
 import com.relevantcodes.extentreports.LogStatus;
 
 import io.restassured.response.Response;
-import utils.ExtentReport;
+import weather.utils.ExtentReport;
+
 
 import java.io.IOException;
 import java.util.Map;
 
-public class APIVerification extends ExtentReport{
+public class APIVerification extends ExtentReport {
 
 	public static void responseCodeValidation(Response resp, int statuscode) {
 		try {
