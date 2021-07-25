@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestVagrant Automation Suite" verbose="1" thread-count="1" data-provider-thread-count="1" parallel="tests"
+       configfailurepolicy="continue">
+    <test name="TestVagrant Automation">
+        <parameter name="BROWSER" value="chrome"/>
+        <classes>
+<!--            <class name="com.testvagrant.weather.pagefactory.HomeHook"/>-->
+            <class name="com.testvagrant.weather.apitest.GetResponses"/>
+        </classes>
+    </test>
+</suite>
